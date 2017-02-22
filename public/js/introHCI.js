@@ -9,5 +9,7 @@ $(document).ready(function() {
  * Function that is called when the document is ready.
  */
 function initializePage() {
+	$('#likeCtr').click(
+		ga("send", "event", 'like', 'click'));
 	// your code here
 }
